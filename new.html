@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <section>
+            <h2>Заказать</h2>
+            <form action="/">
+                <label for="name">Ваше имя</label>
+                <input id="name" type="text" name="name" placeholder="Ваше имя">
+                <label for="phone">Телефон</label>
+                <input id="phone" type="tel" name="phone" placeholder="+7">
+                <label for="email">Email</label>
+                <input id="email" type="email" name="email" placeholder="email">
+                <label for="address">Адрес</label>
+                <input id="address" type="text" name="address" placeholder="Адрес">
+                <label for="comment">Комментарий</label>
+                <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Комментарий"></textarea>
+                <input name="check" type="checkbox">
+                <label for="check">Соглашаюсь с <a href="#">политикой конфиденциальности</a></label>
+                <button type="submit">Отправить заявку</button>
+            </form>
+            <form action="/">
+                <label for="email">Email</label>
+                <input id="email" type="email" name="email" placeholder="email">
+                <label for="password">Password</label>
+                <input id="password" type="text" name="password" placeholder="password">
+                <span>Radios</span>
+                <ul>
+                    <li>
+                        <input id="first" type="radio" name="first">
+                        <label for="first">First radio</label>
+                    </li>
+                    <li>
+                        <input id="second" type="radio" name="second"> 
+                        <label for="second">Second radio</label>
+                    </li>
+                    <li>
+                        <input id="third" type="radio" name="third" disabled>
+                        <label for="third">Third disabled radio</label>
+                    </li>
+                </ul>
+                <input id="check" type="checkbox" name="check">
+                <label for="check">Example checkbox</label>
+                <button type="submit">Sign in</button>
+            </form>
+            <form action="/">
+                <label for="email">Email address</label>
+                <input id="email" type="email" name="email" placeholder="email">
+                <label for="password">Password</label>
+                <input id="password" type="text" name="password" placeholder="password">
+                <input id="remember" type="checkbox" name="remember">
+                <label for="remember">Remember me</label>
+                <a href="#">Forgot your password?</a>
+                <button type="submit">Sign in</button>
+            </form>
+            <form action="/">
+                <label for="first-name">First name</label>
+                <input id="first-name" type="text" name="first-name" placeholder="First name">
+                <label for="last-name">Last name</label>
+                <input id="last-name" type="text" name="last-name" placeholder="Last name">
+                <label for="email">Email address</label>
+                <input id="email" type="email" name="email" placeholder="Email">
+                <label for="country">Country</label>
+                <select name="country" id="country">
+                    <option value="United States" selected>United States"</option>
+                    <option value="Canada">Canada</option>
+                    <option value="Mexico">Mexico</option>
+                </select>
+                <label for="address">Street address</label>
+                <input id="address" type="text" name="address" placeholder="Street address">
+                <label for="city">City</label>
+                <input id="city" type="text" name="city" placeholder="City">
+                <label for="state">State/Province</label>
+                <input id="state" type="text" name="state" placeholder="State/Province">
+                <label for="zip">ZIP/Postal code</label>
+                <input id="zip" type="number" name="zip" placeholder="ZIP/Postal code">
+                <button type="submit">Save</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
